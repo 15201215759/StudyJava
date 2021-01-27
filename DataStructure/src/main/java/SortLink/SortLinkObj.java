@@ -1,7 +1,7 @@
 package SortLink;
 
 /**
- * 有序链表
+ * 有序链表//
  */
 public class SortLinkObj {
     private LinkNode first;
