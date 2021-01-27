@@ -6,6 +6,7 @@ public class TestJdbcDemo01 {
     public static void main(String[] args) throws Exception {
         //注册驱动类
         DriverManager.registerDriver(new com.mysql.jdbc.Driver());
+//        Class.forName("com.mysql.jdbc.Driver");
         //获取链接url
         String url="jdbc:mysql://localhost:3306/test";
         //获取用户名密码
@@ -27,8 +28,6 @@ public class TestJdbcDemo01 {
         resultSet.close();
         statement.close();
         conn.close();
-
-
 
     }
 }
