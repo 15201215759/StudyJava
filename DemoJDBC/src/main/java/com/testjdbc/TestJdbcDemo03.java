@@ -15,9 +15,7 @@ public class TestJdbcDemo03   {
         String sql="select * from a";
         Statement statement = conn.createStatement();
         boolean flag = statement.execute(sql);
-
         ResultSet set= null;
-
         if (flag==true) {
             set=statement.getResultSet();
             while (set.next()){
