@@ -29,6 +29,5 @@ public class StreamWordCountSocketDemo {
         resultStream.print();
         //执行流处理
         env.execute();
-
     }
 }
