@@ -11,6 +11,8 @@
     <modules>
         <module>DataStructure</module>
         <module>TestThread</module>
+        <module>DemoJDBC</module>
+        <module>StudyFlinkDemo01</module>
     </modules>
 
 
